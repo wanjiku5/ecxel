@@ -1,0 +1,142 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy to have you</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            background-color: black;
+            padding: auto;
+            color: white;
+        }
+        header {
+            background-color: skyblue;
+            padding: 10px;
+            color: black;
+            text-align: left;
+        }
+        nav {
+            padding: 10px;
+            background-color: skyblue;
+            text-align: left;
+            color: orange;
+            font-weight: black;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: auto;
+            padding: 5px 0 5px 0;
+        }
+        nav ul li {
+            display: inline-block;
+            padding: 5px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+        #home-page,#about-page,#projects-page,#contact-page {
+            padding: 20px;
+        }
+        footer {
+            padding: 10px;
+            background-color: black;
+            text-align: center;
+            color: orange;
+            font-weight: black;
+        }
+        footer #links {
+            display: flex;
+            justify-content: space-around;
+
+        }
+        #home-page{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #home-page #fullname{
+            font-size: 50px;
+        }
+        #home-page img {
+            border-radius: 50%;
+            padding: auto;
+            
+        }
+        #home-page #name{
+            color: skyblue;
+        }
+        .moving-text {
+          animation: moveLeft 10s linear infinite;
+          color: black;
+          text-align: right;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: x-large;
+        }
+        
+        @keyframes moveLeft {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
+        }
+      </style>
+</head>
+<body>
+    
+
+    <header>
+    
+        <div class="moving-text"> TWENDE NALO AISEE!!!</div>
+    </header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#contact-page">Contact</a></li>
+    </ul>
+</nav>
+
+    <section id="about-page">
+        <h2>About </h2>
+        <p>As an upcoming data analyst i remain optmistic to maintain up-to-date knowledge of industry trends and advancements in data analytics,enhacing the adaptability of the solutions provided.<br>
+            I would want to develop custom algorithms to optimize data mining,increasing the effectiveness of analytical insights.<br>
+            My main aim is to implement robust quality control measures to minimize errors and improve the reliability of analytical outputs.</p>
+
+    </section>
+    <div class="skills">
+        <h3>Tumespecialize in ?</h3>
+        <p>Get to know about my skills </p>
+        <ul>
+    
+            <li>Python</li>
+            <li>R</li>
+            <li>SQL</li>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+            <li>Django</li>
+        </ul>
+    </div>
+<footer>
+    
+</footer>
+</body>
+</html>
